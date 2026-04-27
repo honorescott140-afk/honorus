@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfolio professionnel de MUSHAGALUSA BIRINGANINE HONORÉ – Expert en Systèmes Embarqués, IoT et Électronique." />
+  <title>MUSHAGALUSA BIRINGANINE HONORÉ | Expert Systèmes Embarqués</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-bracket">&lt;</span>MBH<span class="logo-bracket">/&gt;</span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#experience">Expérience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="accueil">
+    <div class="hero-bg"></div>
+    <div class="particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge"><i class="fas fa-microchip"></i> Disponible pour projets</div>
+      <h1 class="hero-title">
+        <span class="name-line">MUSHAGALUSA</span>
+        <span class="name-line accent">BIRINGANINE HONORÉ</span>
+      </h1>
+      <div class="hero-typing">
+        <span class="typing-prefix">Expert en </span>
+        <span class="typing-text" id="typing-text"></span>
+        <span class="cursor-blink">|</span>
+      </div>
+      <p class="hero-desc">Ingénieur passionné par les systèmes embarqués, l'IoT, la robotique et l'électronique
+        avancée. Je transforme des idées en solutions matérielles et logicielles innovantes.</p>
+      <div class="hero-btns">
+        <a href="#projets" class="btn btn-primary"><i class="fas fa-folder-open"></i> Voir mes projets</a>
+        <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Me contacter</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Années d'expérience</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">30+</span><span class="stat-label">Projets réalisés</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">15+</span><span class="stat-label">Technologies maîtrisées</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="profile-ring">
+        <img src="assets/profile.png" alt="Photo de MUSHAGALUSA BIRINGANINE HONORÉ" class="profile-img"
+          id="profile-img" />
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+        <div class="ring ring-3"></div>
+      </div>
+      <div class="floating-chip chip-1"><i class="fas fa-microchip"></i> ESP32</div>
+      <div class="floating-chip chip-2"><i class="fas fa-wifi"></i> IoT</div>
+      <div class="floating-chip chip-3"><i class="fas fa-robot"></i> RTOS</div>
+      <div class="floating-chip chip-4"><i class="fas fa-wave-square"></i> FPGA</div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+      <span>Défiler</span>
+    </div>
+  </section>
+
+  <!-- À PROPOS -->
+  <section class="section" id="apropos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// about_me</span>
+        <h2 class="section-title">À <span class="accent">Propos</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-intro">Je suis <strong>MUSHAGALUSA BIRINGANINE HONORÉ</strong>, ingénieur spécialisé dans la
+            conception et le développement de <strong>systèmes embarqués</strong> pour des applications industrielles,
+            médicales et grand public.</p>
+          <p>Ma passion pour l'électronique et la programmation bas-niveau m'a conduit à maîtriser un large éventail de
+            microcontrôleurs, de protocoles de communication et d'outils de développement embarqué.</p>
+          <p>Je conçois des solutions <strong>robustes, optimisées et fiables</strong> allant du prototypage jusqu'à la
+            mise en production, en passant par la rédaction de firmware, les tests unitaires embarqués et l'intégration
+            hardware/software.</p>
+          <div class="about-info">
+            <div class="info-item"><i class="fas fa-map-marker-alt"></i><span>République Démocratique du Congo</span>
+            </div>
+            <div class="info-item"><i class="fas fa-graduation-cap"></i><span>Ingénieur en Électronique &
+                Informatique</span></div>
+            <div class="info-item"><i class="fas fa-language"></i><span>Français, Swahili, Anglais</span></div>
+            <div class="info-item"><i class="fas fa-briefcase"></i><span>Disponible – Freelance & Temps plein</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary"><i class="fas fa-download"></i> Télécharger CV</a>
+        </div>
+        <div class="about-cards">
+          <div class="about-card">
+            <div class="card-icon"><i class="fas fa-microchip"></i></div>
+            <h3>Systèmes Embarqués</h3>
+            <p>Conception de firmware pour ARM Cortex, AVR, ESP32, STM32 avec des contraintes temps réel.</p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon"><i class="fas fa-network-wired"></i></div>
+            <h3>IoT & Connectivité</h3>
+            <p>Intégration MQTT, BLE, WiFi, LoRa pour des objets connectés intelligents.</p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon"><i class="fas fa-robot"></i></div>
+            <h3>Robotique</h3>
+            <p>Développement de systèmes de contrôle pour robots autonomes et bras robotiques.</p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon"><i class="fas fa-circuit-board"></i></div>
+            <h3>Conception PCB</h3>
+            <p>Schématique et routage PCB avec KiCad et Altium Designer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <section class="section section-dark" id="competences">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// skills[]</span>
+        <h2 class="section-title">Mes <span class="accent">Compétences</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-microchip"></i> Microcontrôleurs & SoC</h3>
+          <div class="skill-items">
+            <div class="skill-item" data-level="95"><span>STM32</span>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--level:95%"></div>
+              </div><span class="skill-pct">95%</span>
+            </div>
+            <div class="skill-item" data-level="92"><span>ESP32 / ESP8266</span>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--level:92%"></div>
+              </div><span class="skill-pct">92%</span>
+            </div>
+            <div class="skill-item" data-level="88"><span>Arduino / AVR</span>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--level:88%"></div>
+              </div><span class="skill-pct">88%</span>
+            </div>
+            <div class="skill-item" data-level="80"><span>Raspberry Pi</span>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--level:80%"></div>
+              </div><span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-item" data-level="75"><span>FPGA (Xilinx)</span>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--level:75%"></div>
+              </div><span class="skill-pct">75%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Langages de Programmation</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span>C / C++</span>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--level:97%"></div>
+              </div><span class="skill-pct">97%</span>
+            </div>
+            <div class="skill-item"><span>Python</span>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--level:75%"></div>
+              </div><span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-item"><span>VHDL / Verilog</span>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--level:72%"></div>
+              </div><span class="skill-pct">72%</span>
+            </div>
+            <div class="skill-item"><span>Assembly (ARM)</span>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--level:78%"></div>
+              </div><span class="skill-pct">78%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-wifi"></i> Protocoles & Communication</h3>
+          <div class="skill-tags">
+            <span class="tag">I2C</span><span class="tag">SPI</span><span class="tag">UART</span>
+            <span class="tag">CAN Bus</span><span class="tag">MQTT</span><span class="tag">BLE 5.0</span>
+            <span class="tag">LoRaWAN</span><span class="tag">Modbus</span><span class="tag">USB</span>
+            <span class="tag">Ethernet</span><span class="tag">WiFi 802.11</span><span class="tag">RS-485</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Outils & Environnements</h3>
+          <div class="skill-tags">
+            <span class="tag">STM32CubeIDE</span><span class="tag">VS Code</span><span class="tag">Keil MDK</span>
+            <span class="tag">FreeRTOS</span><span class="tag">KiCad</span><span class="tag">Altium</span>
+            <span class="tag">Git</span><span class="tag">Docker</span><span class="tag">OpenOCD</span>
+            <span class="tag">JTAG / SWD</span><span class="tag">Oscilloscope</span><span class="tag">Logic
+              Analyzer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section class="section" id="projets">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// projects.map()</span>
+        <h2 class="section-title">Mes <span class="accent">Projets</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-walking"></i></div>
+            <div class="project-links">
+              <a href="#" title="Code source"><i class="fab fa-github"></i></a>
+              <a href="#" title="Démo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Canne Intelligente pour Malvoyants</h3>
+          <p>Système embarqué sur ESP32-CAM avec détection d'obstacles ultrasonique, capture d'images, analyse par IA
+            embarquée et alertes audio en temps réel.</p>
+          <div class="project-tags">
+            <span>ESP32-CAM</span><span>C++</span><span>IA embarquée</span><span>Ultrason</span>
+          </div>
+        </div>
+
+        <div class="project-card featured">
+          <div class="project-badge">⭐ Featured</div>
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-industry"></i></div>
+            <div class="project-links">
+              <a href="#" title="Code source"><i class="fab fa-github"></i></a>
+              <a href="#" title="Démo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Système de Contrôle Industriel IoT</h3>
+          <p>Architecture distribuée avec STM32 + FreeRTOS, communication CAN Bus, supervision MQTT et tableau de bord
+            temps réel pour monitoring industriel.</p>
+          <div class="project-tags">
+            <span>STM32</span><span>FreeRTOS</span><span>CAN Bus</span><span>MQTT</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-robot"></i></div>
+            <div class="project-links">
+              <a href="#" title="Code source"><i class="fab fa-github"></i></a>
+              <a href="#" title="Démo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Bras Robotique 6 Axes</h3>
+          <p>Contrôle précis de servomoteurs avec cinématique inverse, interface Bluetooth et programmation de
+            trajectoires via application mobile.</p>
+          <div class="project-tags">
+            <span>Arduino</span><span>BLE</span><span>Cinématique inverse</span><span>C++</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-solar-panel"></i></div>
+            <div class="project-links">
+              <a href="#" title="Code source"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Station Météo LoRa</h3>
+          <p>Réseau de capteurs autonomes alimentés par panneau solaire transmettant via LoRaWAN vers un serveur central
+            de collecte de données environnementales.</p>
+          <div class="project-tags">
+            <span>LoRaWAN</span><span>ESP32</span><span>Python</span><span>Solaire</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-heartbeat"></i></div>
+            <div class="project-links">
+              <a href="#" title="Code source"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Moniteur Médical Portable</h3>
+          <p>Dispositif de surveillance des constantes vitales (ECG, SpO2, température) avec transmission BLE vers
+            application mobile et stockage sécurisé.</p>
+          <div class="project-tags">
+            <span>STM32</span><span>BLE 5.0</span><span>ECG</span><span>Medical IoT</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-car"></i></div>
+            <div class="project-links">
+              <a href="#" title="Code source"><i class="fab fa-github"></i></a>
+              <a href="#" title="Démo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Véhicule Autonome Miniature</h3>
+          <p>Robot mobile avec SLAM basique, évitement d'obstacles multi-capteurs, navigation GPS et télécommande via
+            application web embarquée.</p>
+          <div class="project-tags">
+            <span>Raspberry Pi</span><span>Python</span><span>OpenCV</span><span>SLAM</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPÉRIENCE -->
+  <section class="section section-dark" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// experience.log</span>
+        <h2 class="section-title">Mon <span class="accent">Expérience</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2023 – Présent</div>
+            <h3>Ingénieur Senior Systèmes Embarqués</h3>
+            <div class="timeline-company"><i class="fas fa-building"></i> Indépendant / Freelance</div>
+            <p>Conception et développement de systèmes embarqués complexes pour clients internationaux. Spécialisation
+              en IoT industriel, systèmes temps réel (RTOS) et conception PCB.</p>
+            <div class="timeline-tags"><span>STM32</span><span>FreeRTOS</span><span>IoT</span><span>KiCad</span></div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2021 – 2023</div>
+            <h3>Développeur Firmware Embarqué</h3>
+            <div class="timeline-company"><i class="fas fa-building"></i> Société Technologique – RDC</div>
+            <p>Développement de firmware pour équipements de télécommunication et systèmes de contrôle-commande.
+              Maintenance et optimisation de code C/C++ embarqué.</p>
+            <div class="timeline-tags"><span>C/C++</span><span>UART</span><span>SPI</span><span>CAN</span></div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2019 – 2021</div>
+            <h3>Ingénieur Électronicien</h3>
+            <div class="timeline-company"><i class="fas fa-building"></i> Bureau d'Études – Bukavu</div>
+            <p>Conception de cartes électroniques, prototypage et tests de systèmes embarqués pour applications
+              industrielles et domotique.</p>
+            <div class="timeline-tags"><span>Arduino</span><span>PCB Design</span><span>Python</span></div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2015 – 2019</div>
+            <h3>Diplôme d'Ingénieur</h3>
+            <div class="timeline-company"><i class="fas fa-graduation-cap"></i> Université – RDC</div>
+            <p>Formation en Électronique, Automatique et Informatique Industrielle. Projet de fin d'études sur les
+              systèmes embarqués temps réel.</p>
+            <div class="timeline-tags"><span>Électronique</span><span>Automatique</span><span>MATLAB</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// contact.send()</span>
+        <h2 class="section-title">Me <span class="accent">Contacter</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-intro">Vous avez un projet en systèmes embarqués ou IoT ? Discutons-en !</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <h4>Email</h4><a href="mailto:honorescott140@gmail.com">honorescott140@gmail.com
+                </a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <h4>Téléphone</h4><a href="tel:+243 991 926 394">+243 991 926 394</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <h4>Localisation</h4><span>KATANGA, LUBUMBASHI, RDC</span>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-btn" id="linkedin-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-btn" id="github-link" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-btn" id="twitter-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://wa.me/243991926394" target="_blank" class="social-btn whatsapp-btn" id="whatsapp-link" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="votre@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" name="subject" placeholder="Sujet du message" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+            <i class="fab fa-whatsapp"></i> Envoyer via WhatsApp
+          </button>
+          <div class="form-success" id="form-success">
+            <i class="fab fa-whatsapp"></i> WhatsApp ouvert ! Votre message est prêt à envoyer.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo"><span class="logo-bracket">&lt;</span>MBH<span class="logo-bracket">/&gt;</span></div>
+        <p>© 2026 MUSHAGALUSA BIRINGANINE HONORÉ — Expert Systèmes Embarqués</p>
+        <div class="footer-links">
+          <a href="#accueil">Accueil</a>
+          <a href="#projets">Projets</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP BUTTON (mobile) -->
+  <a href="https://wa.me/243991926394" target="_blank" class="fab-whatsapp" id="fab-wa" title="Contacter sur WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
